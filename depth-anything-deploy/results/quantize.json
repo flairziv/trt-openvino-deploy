@@ -1,0 +1,163 @@
+{
+  "r364.int8": {
+    "calib_num": 200,
+    "quantize_mode": "int8",
+    "calibration_method": "entropy",
+    "disable_mha_qdq": false,
+    "seconds": 180.3,
+    "graph": {
+      "quantize_linear": 249,
+      "dequantize_linear": 249,
+      "quantized_consumers": {
+        "Conv": 31,
+        "LayerNormalization": 27,
+        "MatMul": 72,
+        "Add": 34,
+        "ConvTranspose": 2,
+        "Relu": 7,
+        "Resize": 5
+      },
+      "nodes": 1017,
+      "size_mb": 47.65
+    },
+    "ort_sim_drift_val8": {
+      "n": 8,
+      "rel_l1": 0.13626615959504332,
+      "sqnr_db": 15.598479217590164
+    }
+  },
+  "r518.int8": {
+    "calib_num": 200,
+    "quantize_mode": "int8",
+    "calibration_method": "entropy",
+    "disable_mha_qdq": false,
+    "seconds": 314.3,
+    "graph": {
+      "quantize_linear": 249,
+      "dequantize_linear": 249,
+      "quantized_consumers": {
+        "Conv": 31,
+        "LayerNormalization": 27,
+        "MatMul": 72,
+        "Add": 34,
+        "ConvTranspose": 2,
+        "Relu": 7,
+        "Resize": 5
+      },
+      "nodes": 1017,
+      "size_mb": 48.33
+    },
+    "ort_sim_drift_val8": {
+      "n": 8,
+      "rel_l1": 0.14060987914687023,
+      "sqnr_db": 15.186408508395647
+    }
+  },
+  "r364.fp16": {
+    "autocast_range_check": false,
+    "fp32_kept_nodes": [
+      "Resize:/model/neck/fusion_stage/layers.3/Resize"
+    ],
+    "seconds": 5.8,
+    "graph": {
+      "quantize_linear": 0,
+      "dequantize_linear": 0,
+      "quantized_consumers": {},
+      "nodes": 519,
+      "size_mb": 47.07
+    },
+    "ort_sim_drift_val8": {
+      "n": 8,
+      "rel_l1": 0.0009003217810305774,
+      "sqnr_db": 59.2201215738729
+    }
+  },
+  "r518.fp16": {
+    "autocast_range_check": false,
+    "fp32_kept_nodes": [
+      "Resize:/model/neck/fusion_stage/layers.3/Resize"
+    ],
+    "seconds": 7.7,
+    "graph": {
+      "quantize_linear": 0,
+      "dequantize_linear": 0,
+      "quantized_consumers": {},
+      "nodes": 519,
+      "size_mb": 47.75
+    },
+    "ort_sim_drift_val8": {
+      "n": 8,
+      "rel_l1": 0.0008149042111012096,
+      "sqnr_db": 59.22094375884453
+    }
+  },
+  "r266.fp16": {
+    "autocast_range_check": false,
+    "fp32_kept_nodes": [
+      "Resize:/model/neck/fusion_stage/layers.3/Resize"
+    ],
+    "seconds": 6.6,
+    "graph": {
+      "quantize_linear": 0,
+      "dequantize_linear": 0,
+      "quantized_consumers": {},
+      "nodes": 519,
+      "size_mb": 46.77
+    },
+    "ort_sim_drift_val8": {
+      "n": 8,
+      "rel_l1": 0.0013210990735128664,
+      "sqnr_db": 57.006870275406165
+    }
+  },
+  "r518.fp8": {
+    "calib_num": 200,
+    "quantize_mode": "fp8",
+    "calibration_method": "max",
+    "disable_mha_qdq": false,
+    "seconds": 63.8,
+    "graph": {
+      "quantize_linear": 282,
+      "dequantize_linear": 282,
+      "quantized_consumers": {
+        "MatMul": 96,
+        "LayerNormalization": 26,
+        "Add": 33,
+        "Conv": 29,
+        "Relu": 7
+      },
+      "nodes": 1083,
+      "size_mb": 48.38
+    },
+    "ort_sim_drift_val8": {
+      "n": 8,
+      "rel_l1": 0.03694889953632374,
+      "sqnr_db": 25.455878900733317
+    }
+  },
+  "r364.fp8": {
+    "calib_num": 200,
+    "quantize_mode": "fp8",
+    "calibration_method": "max",
+    "disable_mha_qdq": false,
+    "seconds": 49.8,
+    "graph": {
+      "quantize_linear": 282,
+      "dequantize_linear": 282,
+      "quantized_consumers": {
+        "MatMul": 96,
+        "LayerNormalization": 26,
+        "Add": 33,
+        "Conv": 29,
+        "Relu": 7
+      },
+      "nodes": 1083,
+      "size_mb": 47.7
+    },
+    "ort_sim_drift_val8": {
+      "n": 8,
+      "rel_l1": 0.03542746008047199,
+      "sqnr_db": 26.11354249945507
+    }
+  }
+}

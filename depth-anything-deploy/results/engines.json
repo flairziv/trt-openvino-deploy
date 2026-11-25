@@ -1,0 +1,244 @@
+{
+  "trt:r364:int8": {
+    "variant": "trt:r364:int8",
+    "onnx": "da2s_r364.int8.onnx",
+    "engine": "da2s_r364.int8.engine",
+    "build_seconds": 4.9,
+    "engine_mb": 28.51,
+    "num_layers": 175,
+    "precision": {
+      "int8": 77
+    },
+    "fused_mha": 12,
+    "myelin_layers": 121
+  },
+  "trt:r518:fp32": {
+    "variant": "trt:r518:fp32",
+    "onnx": "da2s_r518.onnx",
+    "engine": "da2s_r518.fp32.engine",
+    "build_seconds": 19.8,
+    "engine_mb": 99.08,
+    "num_layers": 189,
+    "precision": {
+      "unknown": 13,
+      "fp32": 90
+    },
+    "fused_mha": 0,
+    "myelin_layers": 130
+  },
+  "trt:r518:tf32": {
+    "variant": "trt:r518:tf32",
+    "onnx": "da2s_r518.onnx",
+    "engine": "da2s_r518.tf32.engine",
+    "build_seconds": 15.8,
+    "engine_mb": 99.4,
+    "num_layers": 193,
+    "precision": {
+      "tf32": 53,
+      "fp32": 39,
+      "unknown": 11
+    },
+    "fused_mha": 0,
+    "myelin_layers": 130
+  },
+  "trt:r518:fp16": {
+    "variant": "trt:r518:fp16",
+    "onnx": "da2s_r518.fp16.onnx",
+    "engine": "da2s_r518.fp16.engine",
+    "build_seconds": 5.8,
+    "engine_mb": 50.54,
+    "num_layers": 155,
+    "precision": {
+      "fp16": 76
+    },
+    "fused_mha": 12,
+    "myelin_layers": 104
+  },
+  "trt:r518:int8": {
+    "variant": "trt:r518:int8",
+    "onnx": "da2s_r518.int8.onnx",
+    "engine": "da2s_r518.int8.engine",
+    "build_seconds": 6.6,
+    "engine_mb": 30.32,
+    "num_layers": 160,
+    "precision": {
+      "int8": 76
+    },
+    "fused_mha": 12,
+    "myelin_layers": 108
+  },
+  "trt:r518:int8res": {
+    "variant": "trt:r518:int8res",
+    "onnx": "da2s_r518.int8res.onnx",
+    "engine": "da2s_r518.int8res.engine",
+    "build_seconds": 6.0,
+    "engine_mb": 32.64,
+    "num_layers": 160,
+    "precision": {
+      "int8": 76
+    },
+    "fused_mha": 12,
+    "myelin_layers": 108
+  },
+  "trt:r518:int8mix": {
+    "variant": "trt:r518:int8mix",
+    "onnx": "da2s_r518.int8mix.onnx",
+    "engine": "da2s_r518.int8mix.engine",
+    "build_seconds": 6.1,
+    "engine_mb": 30.67,
+    "num_layers": 160,
+    "precision": {
+      "int8": 76
+    },
+    "fused_mha": 12,
+    "myelin_layers": 108
+  },
+  "trt:r518:fp8": {
+    "variant": "trt:r518:fp8",
+    "onnx": "da2s_r518.fp8.onnx",
+    "engine": "da2s_r518.fp8.engine",
+    "build_seconds": 15.5,
+    "engine_mb": 27.65,
+    "num_layers": 179,
+    "precision": {
+      "fp8": 48
+    },
+    "fused_mha": 12,
+    "myelin_layers": 177
+  },
+  "trt:r364:fp32": {
+    "variant": "trt:r364:fp32",
+    "onnx": "da2s_r364.onnx",
+    "engine": "da2s_r364.fp32.engine",
+    "build_seconds": 15.4,
+    "engine_mb": 97.31,
+    "num_layers": 186,
+    "precision": {
+      "unknown": 20,
+      "fp32": 83
+    },
+    "fused_mha": 0,
+    "myelin_layers": 131
+  },
+  "trt:r364:tf32": {
+    "variant": "trt:r364:tf32",
+    "onnx": "da2s_r364.onnx",
+    "engine": "da2s_r364.tf32.engine",
+    "build_seconds": 14.5,
+    "engine_mb": 97.22,
+    "num_layers": 184,
+    "precision": {
+      "tf32": 53,
+      "fp32": 31,
+      "unknown": 19
+    },
+    "fused_mha": 0,
+    "myelin_layers": 131
+  },
+  "trt:r364:fp16": {
+    "variant": "trt:r364:fp16",
+    "onnx": "da2s_r364.fp16.onnx",
+    "engine": "da2s_r364.fp16.engine",
+    "build_seconds": 4.5,
+    "engine_mb": 49.81,
+    "num_layers": 150,
+    "precision": {
+      "fp16": 77
+    },
+    "fused_mha": 12,
+    "myelin_layers": 97
+  },
+  "trt:r364:int8res": {
+    "variant": "trt:r364:int8res",
+    "onnx": "da2s_r364.int8res.onnx",
+    "engine": "da2s_r364.int8res.engine",
+    "build_seconds": 4.8,
+    "engine_mb": 28.41,
+    "num_layers": 175,
+    "precision": {
+      "int8": 77
+    },
+    "fused_mha": 12,
+    "myelin_layers": 121
+  },
+  "trt:r364:int8mix": {
+    "variant": "trt:r364:int8mix",
+    "onnx": "da2s_r364.int8mix.onnx",
+    "engine": "da2s_r364.int8mix.engine",
+    "build_seconds": 4.8,
+    "engine_mb": 28.49,
+    "num_layers": 175,
+    "precision": {
+      "int8": 77
+    },
+    "fused_mha": 12,
+    "myelin_layers": 121
+  },
+  "trt:r364:fp8": {
+    "variant": "trt:r364:fp8",
+    "onnx": "da2s_r364.fp8.onnx",
+    "engine": "da2s_r364.fp8.engine",
+    "build_seconds": 14.7,
+    "engine_mb": 26.61,
+    "num_layers": 176,
+    "precision": {
+      "fp8": 48
+    },
+    "fused_mha": 12,
+    "myelin_layers": 174
+  },
+  "trt:r266:fp16": {
+    "variant": "trt:r266:fp16",
+    "onnx": "da2s_r266.fp16.onnx",
+    "engine": "da2s_r266.fp16.engine",
+    "build_seconds": 65.4,
+    "engine_mb": 49.19,
+    "num_layers": 151,
+    "precision": {
+      "fp16": 78
+    },
+    "fused_mha": 12,
+    "myelin_layers": 98
+  },
+  "trt:r364:fp16w#0": {
+    "variant": "trt:r364:fp16w#0",
+    "onnx": "da2s_r364.onnx",
+    "engine": "da2s_r364.fp16w.0.engine",
+    "build_seconds": 108.4,
+    "engine_mb": 89.89,
+    "num_layers": 185,
+    "precision": {
+      "fp16": 29,
+      "tf32": 48,
+      "fp32": 24
+    },
+    "fused_mha": 0,
+    "myelin_layers": 130
+  },
+  "trt:r364:fp16w#1": {
+    "variant": "trt:r364:fp16w#1",
+    "onnx": "da2s_r364.onnx",
+    "engine": "da2s_r364.fp16w.1.engine",
+    "build_seconds": 100.7,
+    "engine_mb": 49.79,
+    "num_layers": 137,
+    "precision": {
+      "fp16": 77
+    },
+    "fused_mha": 12,
+    "myelin_layers": 89
+  },
+  "trt:r364:fp16w#2": {
+    "variant": "trt:r364:fp16w#2",
+    "onnx": "da2s_r364.onnx",
+    "engine": "da2s_r364.fp16w.2.engine",
+    "build_seconds": 97.9,
+    "engine_mb": 49.81,
+    "num_layers": 139,
+    "precision": {
+      "fp16": 77
+    },
+    "fused_mha": 12,
+    "myelin_layers": 89
+  }
+}

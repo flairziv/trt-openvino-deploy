@@ -1,0 +1,56 @@
+{
+  "r364.fp32": {
+    "seconds": 0.4,
+    "ir_mb": 94.05,
+    "fake_quantize": 0,
+    "val_abs_rel": 0.06962907521922401
+  },
+  "r364.int8": {
+    "seconds": 156.1,
+    "ir_mb": 25.76,
+    "fake_quantize": 110,
+    "val_abs_rel": 0.07001635032693432
+  },
+  "r364.int8sqoff": {
+    "seconds": 88.5,
+    "ir_mb": 25.59,
+    "fake_quantize": 110,
+    "val_abs_rel": 0.07032426542089898
+  },
+  "r364.int8sq050": {
+    "seconds": 141.1,
+    "ir_mb": 25.76,
+    "fake_quantize": 110,
+    "val_abs_rel": 0.06999636199085757
+  },
+  "r364.int8sq075": {
+    "seconds": 144.8,
+    "ir_mb": 25.76,
+    "fake_quantize": 110,
+    "val_abs_rel": 0.07000076500570429
+  },
+  "r364.int8ac": {
+    "seconds": 188.2,
+    "ir_mb": 25.76,
+    "fake_quantize": 110,
+    "val_abs_rel": 0.07001635032693432
+  },
+  "r518.fp32": {
+    "seconds": 0.5,
+    "ir_mb": 95.41,
+    "fake_quantize": 0,
+    "val_abs_rel": 0.060684732851962186
+  },
+  "r518.int8": {
+    "seconds": 332.8,
+    "ir_mb": 27.13,
+    "fake_quantize": 110,
+    "val_abs_rel": 0.061611387163227005
+  },
+  "r518.int8ac": {
+    "seconds": 428.9,
+    "ir_mb": 27.13,
+    "fake_quantize": 110,
+    "val_abs_rel": 0.061611387163227005
+  }
+}

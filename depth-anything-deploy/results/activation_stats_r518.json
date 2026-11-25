@@ -1,0 +1,1130 @@
+{
+ "res": "r518",
+ "num": 16,
+ "by_kind": {
+  "qkv_in": {
+   "channel_outlier_median": 4.670534153014391,
+   "channel_outlier_max": 7.397863127004252,
+   "sqnr_max_db_mean": 30.91754104427349,
+   "sqnr_clip_db_mean": 32.514791329599625,
+   "absmax_max": 33.889957427978516
+  },
+  "o_proj_in": {
+   "channel_outlier_median": 3.3860164326109,
+   "channel_outlier_max": 57.08243249132397,
+   "sqnr_max_db_mean": 33.411829882075416,
+   "sqnr_clip_db_mean": 34.637488059293766,
+   "absmax_max": 6.939202308654785
+  },
+  "fc1_in": {
+   "channel_outlier_median": 4.387850566346845,
+   "channel_outlier_max": 12.599539486609629,
+   "sqnr_max_db_mean": 30.51867288984637,
+   "sqnr_clip_db_mean": 33.69424991150864,
+   "absmax_max": 55.08356857299805
+  },
+  "fc2_in": {
+   "channel_outlier_median": 7.5939448596461085,
+   "channel_outlier_max": 17.666972292691185,
+   "sqnr_max_db_mean": 23.275318921168306,
+   "sqnr_clip_db_mean": 26.25194201558539,
+   "absmax_max": 16.44940948486328
+  },
+  "resid_attn": {
+   "channel_outlier_median": 6.890354011084181,
+   "channel_outlier_max": 18.633125935266907,
+   "sqnr_max_db_mean": 26.397608938563994,
+   "sqnr_clip_db_mean": 30.162958429169322,
+   "absmax_max": 17.15145492553711
+  },
+  "resid_out": {
+   "channel_outlier_median": 11.137469549550204,
+   "channel_outlier_max": 21.589702590337918,
+   "sqnr_max_db_mean": 22.92838696074673,
+   "sqnr_clip_db_mean": 27.9398135887044,
+   "absmax_max": 24.43335723876953
+  }
+ },
+ "rows": [
+  {
+   "block": 0,
+   "kind": "fc1_in",
+   "absmax": 55.08356857299805,
+   "p9999": 45.30489540100098,
+   "channel_outlier": 12.599539486609629,
+   "tail_ratio": 1.060997972884235,
+   "sqnr_max_db": 26.787139958172176,
+   "sqnr_clip_db": 27.251345549591395,
+   "stable_top_channels": [
+    199,
+    26,
+    153
+   ]
+  },
+  {
+   "block": 0,
+   "kind": "fc2_in",
+   "absmax": 11.598684310913086,
+   "p9999": 6.483652889728546,
+   "channel_outlier": 7.1905155852207105,
+   "tail_ratio": 1.7114133233732884,
+   "sqnr_max_db": 22.441760386645647,
+   "sqnr_clip_db": 22.075113480028307,
+   "stable_top_channels": [
+    621,
+    1401,
+    1072
+   ]
+  },
+  {
+   "block": 0,
+   "kind": "o_proj_in",
+   "absmax": 6.939202308654785,
+   "p9999": 3.59712116420269,
+   "channel_outlier": 57.08243249132397,
+   "tail_ratio": 1.746814382126045,
+   "sqnr_max_db": 22.985525243232676,
+   "sqnr_clip_db": 23.794814554530305,
+   "stable_top_channels": [
+    264,
+    317,
+    291
+   ]
+  },
+  {
+   "block": 0,
+   "kind": "qkv_in",
+   "absmax": 9.385923385620117,
+   "p9999": 7.61896738409996,
+   "channel_outlier": 3.974604888087493,
+   "tail_ratio": 1.139156839772907,
+   "sqnr_max_db": 31.000433787647367,
+   "sqnr_clip_db": 31.726781090106233,
+   "stable_top_channels": [
+    129,
+    44,
+    68
+   ]
+  },
+  {
+   "block": 0,
+   "kind": "resid_attn",
+   "absmax": 2.4609832763671875,
+   "p9999": 2.249890223145485,
+   "channel_outlier": 8.95048303888334,
+   "tail_ratio": 1.061652343781617,
+   "sqnr_max_db": 26.862559490145145,
+   "sqnr_clip_db": 27.351449776641477,
+   "stable_top_channels": [
+    173,
+    153,
+    197
+   ]
+  },
+  {
+   "block": 0,
+   "kind": "resid_out",
+   "absmax": 0.8294371366500854,
+   "p9999": 0.6877001225948334,
+   "channel_outlier": 4.968703178130328,
+   "tail_ratio": 1.1217054297425075,
+   "sqnr_max_db": 29.695937926580307,
+   "sqnr_clip_db": 30.541872305345308,
+   "stable_top_channels": [
+    324,
+    278,
+    153
+   ]
+  },
+  {
+   "block": 1,
+   "kind": "fc1_in",
+   "absmax": 21.469444274902344,
+   "p9999": 13.045206367969513,
+   "channel_outlier": 2.916127391415258,
+   "tail_ratio": 1.4490030351328782,
+   "sqnr_max_db": 32.82425128229765,
+   "sqnr_clip_db": 34.58229659921649,
+   "stable_top_channels": [
+    183,
+    153,
+    26
+   ]
+  },
+  {
+   "block": 1,
+   "kind": "fc2_in",
+   "absmax": 9.482582092285156,
+   "p9999": 3.546145111322403,
+   "channel_outlier": 2.72621352310337,
+   "tail_ratio": 1.7440055261281069,
+   "sqnr_max_db": 26.81070496009592,
+   "sqnr_clip_db": 29.721899190677902,
+   "stable_top_channels": [
+    844,
+    1415,
+    613
+   ]
+  },
+  {
+   "block": 1,
+   "kind": "o_proj_in",
+   "absmax": 4.202847480773926,
+   "p9999": 2.5330333411693573,
+   "channel_outlier": 3.606056731938102,
+   "tail_ratio": 1.2561483664297999,
+   "sqnr_max_db": 30.89082492936647,
+   "sqnr_clip_db": 32.31266229720242,
+   "stable_top_channels": [
+    125,
+    75,
+    225
+   ]
+  },
+  {
+   "block": 1,
+   "kind": "qkv_in",
+   "absmax": 24.533109664916992,
+   "p9999": 19.815715491771698,
+   "channel_outlier": 5.88028566656388,
+   "tail_ratio": 1.17374569214424,
+   "sqnr_max_db": 28.61919563924691,
+   "sqnr_clip_db": 29.18812636521434,
+   "stable_top_channels": [
+    129,
+    194,
+    379
+   ]
+  },
+  {
+   "block": 1,
+   "kind": "resid_attn",
+   "absmax": 0.6896125674247742,
+   "p9999": 0.45100871846079826,
+   "channel_outlier": 5.114659143664816,
+   "tail_ratio": 1.295175763332565,
+   "sqnr_max_db": 29.348953788652782,
+   "sqnr_clip_db": 30.942334610640515,
+   "stable_top_channels": [
+    173,
+    278,
+    26
+   ]
+  },
+  {
+   "block": 1,
+   "kind": "resid_out",
+   "absmax": 0.7651433348655701,
+   "p9999": 0.3029250707477331,
+   "channel_outlier": 7.00612759815925,
+   "tail_ratio": 2.398430468324564,
+   "sqnr_max_db": 26.58912543484034,
+   "sqnr_clip_db": 31.062880716848596,
+   "stable_top_channels": [
+    324,
+    173,
+    278
+   ]
+  },
+  {
+   "block": 2,
+   "kind": "fc1_in",
+   "absmax": 23.281105041503906,
+   "p9999": 11.460668563842773,
+   "channel_outlier": 5.053046924294957,
+   "tail_ratio": 1.9973202850871492,
+   "sqnr_max_db": 29.448009546250347,
+   "sqnr_clip_db": 33.69000272963655,
+   "stable_top_channels": [
+    278,
+    68,
+    26
+   ]
+  },
+  {
+   "block": 2,
+   "kind": "fc2_in",
+   "absmax": 16.44940948486328,
+   "p9999": 1.8444355428218842,
+   "channel_outlier": 14.368152044351646,
+   "tail_ratio": 8.81047077465869,
+   "sqnr_max_db": 14.67812272006633,
+   "sqnr_clip_db": 25.37486805580019,
+   "stable_top_channels": [
+    852,
+    683,
+    611
+   ]
+  },
+  {
+   "block": 2,
+   "kind": "o_proj_in",
+   "absmax": 3.151446580886841,
+   "p9999": 1.7820719107985497,
+   "channel_outlier": 3.6621103069748635,
+   "tail_ratio": 1.3911040711480434,
+   "sqnr_max_db": 32.7307391473149,
+   "sqnr_clip_db": 34.47170504248664,
+   "stable_top_channels": [
+    199,
+    251,
+    244
+   ]
+  },
+  {
+   "block": 2,
+   "kind": "qkv_in",
+   "absmax": 23.69685935974121,
+   "p9999": 16.048605799674988,
+   "channel_outlier": 5.525125401379485,
+   "tail_ratio": 1.3378466709365884,
+   "sqnr_max_db": 30.760659380307466,
+   "sqnr_clip_db": 32.08042552966208,
+   "stable_top_channels": [
+    129,
+    194,
+    1
+   ]
+  },
+  {
+   "block": 2,
+   "kind": "resid_attn",
+   "absmax": 0.4731633961200714,
+   "p9999": 0.29059005342423916,
+   "channel_outlier": 4.6840125239194785,
+   "tail_ratio": 1.5792214691755988,
+   "sqnr_max_db": 29.927058550897215,
+   "sqnr_clip_db": 33.11758215554159,
+   "stable_top_channels": [
+    324,
+    278,
+    359
+   ]
+  },
+  {
+   "block": 2,
+   "kind": "resid_out",
+   "absmax": 1.850813865661621,
+   "p9999": 0.2512078071013093,
+   "channel_outlier": 21.589702590337918,
+   "tail_ratio": 7.325261010570017,
+   "sqnr_max_db": 17.515403251411044,
+   "sqnr_clip_db": 23.819229024076655,
+   "stable_top_channels": [
+    324,
+    278,
+    68
+   ]
+  },
+  {
+   "block": 3,
+   "kind": "fc1_in",
+   "absmax": 31.325397491455078,
+   "p9999": 10.900369226932526,
+   "channel_outlier": 6.424257726983475,
+   "tail_ratio": 2.873106268074488,
+   "sqnr_max_db": 26.927078263478684,
+   "sqnr_clip_db": 32.923543246757994,
+   "stable_top_channels": [
+    359,
+    278,
+    68
+   ]
+  },
+  {
+   "block": 3,
+   "kind": "fc2_in",
+   "absmax": 3.2116334438323975,
+   "p9999": 1.787499688565731,
+   "channel_outlier": 2.720529649618984,
+   "tail_ratio": 1.619684905551452,
+   "sqnr_max_db": 28.64623756316029,
+   "sqnr_clip_db": 30.67995339615617,
+   "stable_top_channels": [
+    557,
+    203,
+    460
+   ]
+  },
+  {
+   "block": 3,
+   "kind": "o_proj_in",
+   "absmax": 2.6394803524017334,
+   "p9999": 2.0752502605319023,
+   "channel_outlier": 3.4048077052730354,
+   "tail_ratio": 1.2101554881447718,
+   "sqnr_max_db": 34.51324780256187,
+   "sqnr_clip_db": 35.79551821158345,
+   "stable_top_channels": [
+    285,
+    111,
+    107
+   ]
+  },
+  {
+   "block": 3,
+   "kind": "qkv_in",
+   "absmax": 30.915620803833008,
+   "p9999": 25.796189069747925,
+   "channel_outlier": 7.397863127004252,
+   "tail_ratio": 1.1384794274614232,
+   "sqnr_max_db": 30.152383809306397,
+   "sqnr_clip_db": 31.03521778538518,
+   "stable_top_channels": [
+    1,
+    379,
+    28
+   ]
+  },
+  {
+   "block": 3,
+   "kind": "resid_attn",
+   "absmax": 1.7854434251785278,
+   "p9999": 0.22878858633339405,
+   "channel_outlier": 18.633125935266907,
+   "tail_ratio": 7.7573945090855165,
+   "sqnr_max_db": 18.031564292891183,
+   "sqnr_clip_db": 24.365775957890804,
+   "stable_top_channels": [
+    68,
+    278,
+    324
+   ]
+  },
+  {
+   "block": 3,
+   "kind": "resid_out",
+   "absmax": 1.730798602104187,
+   "p9999": 0.2390597378835082,
+   "channel_outlier": 18.833519111400413,
+   "tail_ratio": 7.202144231140695,
+   "sqnr_max_db": 18.55191817056601,
+   "sqnr_clip_db": 24.7045154406577,
+   "stable_top_channels": [
+    324,
+    278,
+    68
+   ]
+  },
+  {
+   "block": 4,
+   "kind": "fc1_in",
+   "absmax": 31.565025329589844,
+   "p9999": 11.753212451934814,
+   "channel_outlier": 6.118572890175176,
+   "tail_ratio": 2.697408014176943,
+   "sqnr_max_db": 27.632788553061193,
+   "sqnr_clip_db": 33.390035003281305,
+   "stable_top_channels": [
+    278,
+    68,
+    359
+   ]
+  },
+  {
+   "block": 4,
+   "kind": "fc2_in",
+   "absmax": 4.3932623863220215,
+   "p9999": 1.8531707525253296,
+   "channel_outlier": 3.614787268114796,
+   "tail_ratio": 2.1757505651878595,
+   "sqnr_max_db": 26.21154281289605,
+   "sqnr_clip_db": 27.42594625024945,
+   "stable_top_channels": [
+    1170,
+    618,
+    551
+   ]
+  },
+  {
+   "block": 4,
+   "kind": "o_proj_in",
+   "absmax": 2.917248010635376,
+   "p9999": 2.182366758584976,
+   "channel_outlier": 3.367225159948765,
+   "tail_ratio": 1.2129361372556016,
+   "sqnr_max_db": 33.757923083027435,
+   "sqnr_clip_db": 34.98548001953134,
+   "stable_top_channels": [
+    367,
+    155,
+    370
+   ]
+  },
+  {
+   "block": 4,
+   "kind": "qkv_in",
+   "absmax": 21.87532615661621,
+   "p9999": 13.878138959407806,
+   "channel_outlier": 4.371213307844252,
+   "tail_ratio": 1.5703895572169095,
+   "sqnr_max_db": 31.706172612003876,
+   "sqnr_clip_db": 35.02828299748883,
+   "stable_top_channels": [
+    278,
+    44,
+    146
+   ]
+  },
+  {
+   "block": 4,
+   "kind": "resid_attn",
+   "absmax": 1.717903733253479,
+   "p9999": 0.2457116423174739,
+   "channel_outlier": 16.566855048656848,
+   "tail_ratio": 6.944417535472198,
+   "sqnr_max_db": 19.351578505792794,
+   "sqnr_clip_db": 25.68515912573403,
+   "stable_top_channels": [
+    68,
+    278,
+    324
+   ]
+  },
+  {
+   "block": 4,
+   "kind": "resid_out",
+   "absmax": 1.6959264278411865,
+   "p9999": 0.28095909021794796,
+   "channel_outlier": 15.3727628796425,
+   "tail_ratio": 6.004354826849056,
+   "sqnr_max_db": 20.058010173883606,
+   "sqnr_clip_db": 25.134241474414043,
+   "stable_top_channels": [
+    324,
+    278,
+    68
+   ]
+  },
+  {
+   "block": 5,
+   "kind": "fc1_in",
+   "absmax": 32.349552154541016,
+   "p9999": 11.295794367790222,
+   "channel_outlier": 6.683544605744563,
+   "tail_ratio": 2.857433148772892,
+   "sqnr_max_db": 27.45854441116321,
+   "sqnr_clip_db": 33.392962737765515,
+   "stable_top_channels": [
+    278,
+    68,
+    323
+   ]
+  },
+  {
+   "block": 5,
+   "kind": "fc2_in",
+   "absmax": 6.2319016456604,
+   "p9999": 1.932175874710083,
+   "channel_outlier": 5.225116023402819,
+   "tail_ratio": 2.70590111808592,
+   "sqnr_max_db": 23.80410643470467,
+   "sqnr_clip_db": 25.54691427921991,
+   "stable_top_channels": [
+    330,
+    1169,
+    965
+   ]
+  },
+  {
+   "block": 5,
+   "kind": "o_proj_in",
+   "absmax": 2.228445291519165,
+   "p9999": 1.6147898435592651,
+   "channel_outlier": 2.7241926811571484,
+   "tail_ratio": 1.2801269573998861,
+   "sqnr_max_db": 34.94443489558492,
+   "sqnr_clip_db": 36.14742177369207,
+   "stable_top_channels": [
+    369,
+    174,
+    367
+   ]
+  },
+  {
+   "block": 5,
+   "kind": "qkv_in",
+   "absmax": 19.747177124023438,
+   "p9999": 13.544749915599823,
+   "channel_outlier": 3.649604582636252,
+   "tail_ratio": 1.4473581068591206,
+   "sqnr_max_db": 32.704776459238474,
+   "sqnr_clip_db": 35.462486393871586,
+   "stable_top_channels": [
+    278,
+    28,
+    1
+   ]
+  },
+  {
+   "block": 5,
+   "kind": "resid_attn",
+   "absmax": 1.628167748451233,
+   "p9999": 0.3093833904713392,
+   "channel_outlier": 11.319565183627212,
+   "tail_ratio": 5.231971621387677,
+   "sqnr_max_db": 22.569627756025124,
+   "sqnr_clip_db": 29.0085843017888,
+   "stable_top_channels": [
+    68,
+    278,
+    324
+   ]
+  },
+  {
+   "block": 5,
+   "kind": "resid_out",
+   "absmax": 1.6491882801055908,
+   "p9999": 0.39739775471389294,
+   "channel_outlier": 9.504381352225113,
+   "tail_ratio": 4.1372650924983585,
+   "sqnr_max_db": 24.212058896919853,
+   "sqnr_clip_db": 29.868070450695786,
+   "stable_top_channels": [
+    324,
+    278,
+    68
+   ]
+  },
+  {
+   "block": 6,
+   "kind": "fc1_in",
+   "absmax": 33.414764404296875,
+   "p9999": 12.006530463695526,
+   "channel_outlier": 6.046489601479656,
+   "tail_ratio": 2.760028967110751,
+   "sqnr_max_db": 27.96748814519667,
+   "sqnr_clip_db": 33.73473085613331,
+   "stable_top_channels": [
+    68,
+    278,
+    323
+   ]
+  },
+  {
+   "block": 6,
+   "kind": "fc2_in",
+   "absmax": 4.5480170249938965,
+   "p9999": 2.2709203362464905,
+   "channel_outlier": 4.082710755840077,
+   "tail_ratio": 1.7833423395537211,
+   "sqnr_max_db": 25.722279649427755,
+   "sqnr_clip_db": 26.781665352185417,
+   "stable_top_channels": [
+    478,
+    764,
+    1297
+   ]
+  },
+  {
+   "block": 6,
+   "kind": "o_proj_in",
+   "absmax": 2.747159719467163,
+   "p9999": 2.1126556247472763,
+   "channel_outlier": 3.5554936112933255,
+   "tail_ratio": 1.1835112136068624,
+   "sqnr_max_db": 34.39820193887951,
+   "sqnr_clip_db": 35.48357300170823,
+   "stable_top_channels": [
+    325,
+    62,
+    0
+   ]
+  },
+  {
+   "block": 6,
+   "kind": "qkv_in",
+   "absmax": 23.658634185791016,
+   "p9999": 13.356111943721771,
+   "channel_outlier": 4.720950944545159,
+   "tail_ratio": 1.7562811384712456,
+   "sqnr_max_db": 30.413324654043926,
+   "sqnr_clip_db": 34.19879932275785,
+   "stable_top_channels": [
+    278,
+    68,
+    5
+   ]
+  },
+  {
+   "block": 6,
+   "kind": "resid_attn",
+   "absmax": 1.2857980728149414,
+   "p9999": 0.37406853772699833,
+   "channel_outlier": 7.4862333602180176,
+   "tail_ratio": 3.3983350451476775,
+   "sqnr_max_db": 26.357341346317973,
+   "sqnr_clip_db": 32.54070460442891,
+   "stable_top_channels": [
+    68,
+    278,
+    1
+   ]
+  },
+  {
+   "block": 6,
+   "kind": "resid_out",
+   "absmax": 2.767951488494873,
+   "p9999": 0.5181008838117123,
+   "channel_outlier": 12.770557746875292,
+   "tail_ratio": 5.25995043897291,
+   "sqnr_max_db": 21.303314998515905,
+   "sqnr_clip_db": 27.699297411235808,
+   "stable_top_channels": [
+    68,
+    278,
+    324
+   ]
+  },
+  {
+   "block": 7,
+   "kind": "fc1_in",
+   "absmax": 18.485424041748047,
+   "p9999": 12.263156712055206,
+   "channel_outlier": 3.488395080925187,
+   "tail_ratio": 1.4680188999265158,
+   "sqnr_max_db": 32.882721245588755,
+   "sqnr_clip_db": 35.390602321692,
+   "stable_top_channels": [
+    68,
+    278,
+    208
+   ]
+  },
+  {
+   "block": 7,
+   "kind": "fc2_in",
+   "absmax": 7.02050256729126,
+   "p9999": 2.021108165383339,
+   "channel_outlier": 7.9973741340715065,
+   "tail_ratio": 3.073422339881774,
+   "sqnr_max_db": 21.70115869752042,
+   "sqnr_clip_db": 25.12620992937945,
+   "stable_top_channels": [
+    297,
+    1004,
+    804
+   ]
+  },
+  {
+   "block": 7,
+   "kind": "o_proj_in",
+   "absmax": 2.2252426147460938,
+   "p9999": 1.5086863115429878,
+   "channel_outlier": 3.059686997594617,
+   "tail_ratio": 1.272774252145903,
+   "sqnr_max_db": 34.578398104512665,
+   "sqnr_clip_db": 35.87188740687244,
+   "stable_top_channels": [
+    121,
+    337,
+    333
+   ]
+  },
+  {
+   "block": 7,
+   "kind": "qkv_in",
+   "absmax": 24.153751373291016,
+   "p9999": 16.588932693004608,
+   "channel_outlier": 4.208442899277644,
+   "tail_ratio": 1.271755459968496,
+   "sqnr_max_db": 31.670458928388875,
+   "sqnr_clip_db": 32.931967193494316,
+   "stable_top_channels": [
+    379,
+    28,
+    1
+   ]
+  },
+  {
+   "block": 7,
+   "kind": "resid_attn",
+   "absmax": 1.2817612886428833,
+   "p9999": 0.9773485250771046,
+   "channel_outlier": 4.851045831933071,
+   "tail_ratio": 1.2477395039674741,
+   "sqnr_max_db": 30.544379999708696,
+   "sqnr_clip_db": 32.08520254528845,
+   "stable_top_channels": [
+    68,
+    278,
+    318
+   ]
+  },
+  {
+   "block": 7,
+   "kind": "resid_out",
+   "absmax": 2.970777988433838,
+   "p9999": 0.69437151029706,
+   "channel_outlier": 9.28904094135655,
+   "tail_ratio": 4.064093056245411,
+   "sqnr_max_db": 23.8962508428476,
+   "sqnr_clip_db": 29.963322535392535,
+   "stable_top_channels": [
+    68,
+    278,
+    324
+   ]
+  },
+  {
+   "block": 8,
+   "kind": "fc1_in",
+   "absmax": 23.122581481933594,
+   "p9999": 16.703919887542725,
+   "channel_outlier": 3.7226542083987333,
+   "tail_ratio": 1.2150757490211204,
+   "sqnr_max_db": 33.03286490535772,
+   "sqnr_clip_db": 34.22448228158158,
+   "stable_top_channels": [
+    208,
+    68,
+    278
+   ]
+  },
+  {
+   "block": 8,
+   "kind": "fc2_in",
+   "absmax": 6.0527496337890625,
+   "p9999": 2.051240809261799,
+   "channel_outlier": 8.905589305408121,
+   "tail_ratio": 2.85308986875049,
+   "sqnr_max_db": 21.786344470058083,
+   "sqnr_clip_db": 28.481279748289676,
+   "stable_top_channels": [
+    1411,
+    533,
+    1446
+   ]
+  },
+  {
+   "block": 8,
+   "kind": "o_proj_in",
+   "absmax": 2.959916591644287,
+   "p9999": 2.058815620839596,
+   "channel_outlier": 2.968444947891489,
+   "tail_ratio": 1.2059669806517102,
+   "sqnr_max_db": 35.332201204520544,
+   "sqnr_clip_db": 36.49614691252174,
+   "stable_top_channels": [
+    235,
+    335,
+    104
+   ]
+  },
+  {
+   "block": 8,
+   "kind": "qkv_in",
+   "absmax": 22.560598373413086,
+   "p9999": 16.823987185955048,
+   "channel_outlier": 3.8493682042584867,
+   "tail_ratio": 1.2250550782106795,
+   "sqnr_max_db": 32.2275454127121,
+   "sqnr_clip_db": 33.44612048651897,
+   "stable_top_channels": [
+    68,
+    23,
+    379
+   ]
+  },
+  {
+   "block": 8,
+   "kind": "resid_attn",
+   "absmax": 1.568914532661438,
+   "p9999": 1.0919422060251236,
+   "channel_outlier": 4.002659949098083,
+   "tail_ratio": 1.3063873277413744,
+   "sqnr_max_db": 31.936140431937634,
+   "sqnr_clip_db": 33.56335485154903,
+   "stable_top_channels": [
+    79,
+    278,
+    329
+   ]
+  },
+  {
+   "block": 8,
+   "kind": "resid_out",
+   "absmax": 4.674983024597168,
+   "p9999": 1.4265173748135567,
+   "channel_outlier": 9.107452426700434,
+   "tail_ratio": 3.1672488751276737,
+   "sqnr_max_db": 24.632337679025547,
+   "sqnr_clip_db": 30.345033638010587,
+   "stable_top_channels": [
+    79,
+    278,
+    138
+   ]
+  },
+  {
+   "block": 9,
+   "kind": "fc1_in",
+   "absmax": 19.518070220947266,
+   "p9999": 13.168054699897766,
+   "channel_outlier": 3.674979819867625,
+   "tail_ratio": 1.437246263711073,
+   "sqnr_max_db": 33.19664508141553,
+   "sqnr_clip_db": 35.63992289224005,
+   "stable_top_channels": [
+    208,
+    278,
+    135
+   ]
+  },
+  {
+   "block": 9,
+   "kind": "fc2_in",
+   "absmax": 11.120834350585938,
+   "p9999": 2.3860999792814255,
+   "channel_outlier": 13.509231989793882,
+   "tail_ratio": 4.16526688647423,
+   "sqnr_max_db": 18.906785883698703,
+   "sqnr_clip_db": 21.137427282221047,
+   "stable_top_channels": [
+    1316,
+    149,
+    59
+   ]
+  },
+  {
+   "block": 9,
+   "kind": "o_proj_in",
+   "absmax": 3.208676815032959,
+   "p9999": 2.1507867500185966,
+   "channel_outlier": 3.682924892249284,
+   "tail_ratio": 1.1993081374684893,
+   "sqnr_max_db": 34.13947553501036,
+   "sqnr_clip_db": 35.06230870051259,
+   "stable_top_channels": [
+    68,
+    229,
+    208
+   ]
+  },
+  {
+   "block": 9,
+   "kind": "qkv_in",
+   "absmax": 33.889957427978516,
+   "p9999": 23.252705454826355,
+   "channel_outlier": 6.273335896272353,
+   "tail_ratio": 1.262945571072314,
+   "sqnr_max_db": 29.41565306479093,
+   "sqnr_clip_db": 30.682247242819543,
+   "stable_top_channels": [
+    379,
+    28,
+    1
+   ]
+  },
+  {
+   "block": 9,
+   "kind": "resid_attn",
+   "absmax": 3.1111388206481934,
+   "p9999": 1.4623030871152878,
+   "channel_outlier": 5.471467122565311,
+   "tail_ratio": 2.0167407152087318,
+   "sqnr_max_db": 29.586448519242616,
+   "sqnr_clip_db": 33.912877855334514,
+   "stable_top_channels": [
+    79,
+    278,
+    138
+   ]
+  },
+  {
+   "block": 9,
+   "kind": "resid_out",
+   "absmax": 13.942094802856445,
+   "p9999": 1.8685172125697136,
+   "channel_outlier": 17.803587711893044,
+   "tail_ratio": 7.259131537657426,
+   "sqnr_max_db": 18.587401957383562,
+   "sqnr_clip_db": 24.912924543191615,
+   "stable_top_channels": [
+    79,
+    278,
+    253
+   ]
+  },
+  {
+   "block": 10,
+   "kind": "fc1_in",
+   "absmax": 22.62311363220215,
+   "p9999": 18.274519085884094,
+   "channel_outlier": 3.5376365410625823,
+   "tail_ratio": 1.1546207926613068,
+   "sqnr_max_db": 33.40567512097168,
+   "sqnr_clip_db": 34.367286057601866,
+   "stable_top_channels": [
+    68,
+    208,
+    278
+   ]
+  },
+  {
+   "block": 10,
+   "kind": "fc2_in",
+   "absmax": 6.407595634460449,
+   "p9999": 2.3859812021255493,
+   "channel_outlier": 10.916607502928695,
+   "tail_ratio": 2.4852220400079594,
+   "sqnr_max_db": 21.594622474458482,
+   "sqnr_clip_db": 24.106139892126258,
+   "stable_top_channels": [
+    394,
+    793,
+    494
+   ]
+  },
+  {
+   "block": 10,
+   "kind": "o_proj_in",
+   "absmax": 2.229875326156616,
+   "p9999": 1.5406349375844002,
+   "channel_outlier": 2.555511663531532,
+   "tail_ratio": 1.245815773957546,
+   "sqnr_max_db": 36.55261520953406,
+   "sqnr_clip_db": 37.82565665942501,
+   "stable_top_channels": [
+    5,
+    137,
+    46
+   ]
+  },
+  {
+   "block": 10,
+   "kind": "qkv_in",
+   "absmax": 28.223251342773438,
+   "p9999": 21.635846972465515,
+   "channel_outlier": 4.922677287001889,
+   "tail_ratio": 1.178774625343781,
+   "sqnr_max_db": 30.93635104156557,
+   "sqnr_clip_db": 31.972372142289142,
+   "stable_top_channels": [
+    68,
+    23,
+    379
+   ]
+  },
+  {
+   "block": 10,
+   "kind": "resid_attn",
+   "absmax": 11.612963676452637,
+   "p9999": 2.7322863936424255,
+   "channel_outlier": 14.271423667278626,
+   "tail_ratio": 4.124932814193386,
+   "sqnr_max_db": 21.46303528325309,
+   "sqnr_clip_db": 27.92943362955464,
+   "stable_top_channels": [
+    278,
+    79,
+    138
+   ]
+  },
+  {
+   "block": 10,
+   "kind": "resid_out",
+   "absmax": 15.408203125,
+   "p9999": 3.3096366822719574,
+   "channel_outlier": 13.411899585242537,
+   "tail_ratio": 4.490148805033806,
+   "sqnr_max_db": 21.30528644243446,
+   "sqnr_clip_db": 27.706753172377958,
+   "stable_top_channels": [
+    278,
+    253,
+    79
+   ]
+  },
+  {
+   "block": 11,
+   "kind": "fc1_in",
+   "absmax": 17.177719116210938,
+   "p9999": 11.704578757286072,
+   "channel_outlier": 3.4139695938599446,
+   "tail_ratio": 1.180203013080618,
+   "sqnr_max_db": 34.66086816520285,
+   "sqnr_clip_db": 35.74378866260564,
+   "stable_top_channels": [
+    208,
+    23,
+    135
+   ]
+  },
+  {
+   "block": 11,
+   "kind": "fc2_in",
+   "absmax": 4.281937599182129,
+   "p9999": 2.6826537400484085,
+   "channel_outlier": 17.666972292691185,
+   "tail_ratio": 1.500919127919984,
+   "sqnr_max_db": 27.000161001287328,
+   "sqnr_clip_db": 28.56588733069094,
+   "stable_top_channels": [
+    915,
+    339,
+    52
+   ]
+  },
+  {
+   "block": 11,
+   "kind": "o_proj_in",
+   "absmax": 3.145115375518799,
+   "p9999": 2.16580318659544,
+   "channel_outlier": 3.268069934331841,
+   "tail_ratio": 1.2641529724856246,
+   "sqnr_max_db": 36.118371491359625,
+   "sqnr_clip_db": 37.40268213145899,
+   "stable_top_channels": [
+    141,
+    180,
+    159
+   ]
+  },
+  {
+   "block": 11,
+   "kind": "qkv_in",
+   "absmax": 28.379825592041016,
+   "p9999": 21.507171154022217,
+   "channel_outlier": 4.620117361483624,
+   "tail_ratio": 1.178666152151524,
+   "sqnr_max_db": 31.40353774203001,
+   "sqnr_clip_db": 32.424669405587466,
+   "stable_top_channels": [
+    68,
+    23,
+    323
+   ]
+  },
+  {
+   "block": 11,
+   "kind": "resid_attn",
+   "absmax": 17.15145492553711,
+   "p9999": 14.099182307720184,
+   "channel_outlier": 6.2944746619503436,
+   "tail_ratio": 1.0885703972967957,
+   "sqnr_max_db": 30.792619297903748,
+   "sqnr_clip_db": 31.45304173563914,
+   "stable_top_channels": [
+    79,
+    278,
+    138
+   ]
+  },
+  {
+   "block": 11,
+   "kind": "resid_out",
+   "absmax": 24.43335723876953,
+   "p9999": 19.044599771499634,
+   "channel_outlier": 8.064008022873677,
+   "tail_ratio": 1.1035544697171473,
+   "sqnr_max_db": 28.79359775455252,
+   "sqnr_clip_db": 29.519622352206248,
+   "stable_top_channels": [
+    79,
+    278,
+    138
+   ]
+  }
+ ]
+}

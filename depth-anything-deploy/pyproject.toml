@@ -1,0 +1,43 @@
+# 构建系统:使用 setuptools
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+# 包的基本信息
+[project]
+name = "dadeploy"
+version = "1.0.0"
+description = "Depth Anything V2-Small 双栈部署:TensorRT GPU / OpenVINO CPU 的量化、敏感度分析与实测对照"
+readme = "README.md"
+requires-python = ">=3.11"
+# 公共库的基础依赖
+dependencies = ["numpy>=1.26", "opencv-python-headless>=4.8", "h5py>=3.10", "scipy>=1.11"]
+
+# 可选依赖组
+[project.optional-dependencies]
+# 两条栈的依赖互相隔离,分别装进两个 conda 环境(见 requirements-*.txt 的精确版本)
+gpu = ["torch", "transformers", "onnx", "onnxruntime-gpu", "onnx-graphsurgeon", "nvidia-modelopt[onnx]", "tensorrt"]
+cpu = ["openvino", "nncf"]
+
+# 只打包 dadeploy 目录
+[tool.setuptools]
+packages = ["dadeploy"]
+
+# ruff 的全局设置:行宽 120,按 Python 3.11 检查
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+# 启用的规则集与忽略的规则
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "D"]
+ignore = [
+    "D100", "D104", "D105", "D107",   # 模块 / 包 / 魔术方法 / __init__ 的 docstring 不强制
+    "D203", "D213",                   # 与 D211 / D212 互斥
+    "D400", "D415",                   # 中文 docstring 不要求英文句点
+]
+
+# 按路径放宽的规则
+[tool.ruff.lint.per-file-ignores]
+"scripts/*" = ["E402", "D103"]        # 脚本需先改 sys.path 再 import;main() 由模块 docstring 说明
+"tests/*" = ["D"]

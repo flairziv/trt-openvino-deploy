@@ -1,0 +1,7 @@
+h5py==3.16.0
+nncf==3.4.0
+numpy==2.4.6
+onnx==1.23.2
+opencv-python-headless==4.13.0.92
+openvino==2026.4.1
+scipy==1.17.1

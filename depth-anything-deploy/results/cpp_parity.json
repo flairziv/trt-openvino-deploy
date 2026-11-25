@@ -1,0 +1,155 @@
+{
+ "trt:r518:fp16": {
+  "summary": {
+   "n": 5,
+   "preprocess_max_gray_levels": 1.0223397016525269,
+   "infer_same_input_max_abs": 0.0,
+   "end_to_end_max_abs": 0.58203125,
+   "abs_rel_mean_diff": -2.2257042214157697e-05
+  },
+  "rows": [
+   {
+    "name": "test/00001.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.13671875,
+    "abs_rel_cpp": 0.026371118772421466,
+    "abs_rel_py": 0.02638549119416357
+   },
+   {
+    "name": "test/00017.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.58203125,
+    "abs_rel_cpp": 0.06046298457697746,
+    "abs_rel_py": 0.060361776708896794
+   },
+   {
+    "name": "test/00031.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.37109375,
+    "abs_rel_cpp": 0.03983147465817725,
+    "abs_rel_py": 0.03976443296191031
+   },
+   {
+    "name": "test/00037.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.19140625,
+    "abs_rel_cpp": 0.03460397392768807,
+    "abs_rel_py": 0.03474472778169054
+   },
+   {
+    "name": "test/00043.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.181640625,
+    "abs_rel_cpp": 0.04018266415795761,
+    "abs_rel_py": 0.04030707265763143
+   }
+  ]
+ },
+ "ov:r518:fp32": {
+  "summary": {
+   "n": 5,
+   "preprocess_max_gray_levels": 1.0223397016525269,
+   "infer_same_input_max_abs": 0.0,
+   "end_to_end_max_abs": 0.2952005863189697,
+   "abs_rel_mean_diff": -3.2094473953158534e-05
+  },
+  "rows": [
+   {
+    "name": "test/00001.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.06721377372741699,
+    "abs_rel_cpp": 0.02631752513822908,
+    "abs_rel_py": 0.02630809884489191
+   },
+   {
+    "name": "test/00017.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.2952005863189697,
+    "abs_rel_cpp": 0.060220527346990974,
+    "abs_rel_py": 0.060192982672913904
+   },
+   {
+    "name": "test/00031.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.13130855560302734,
+    "abs_rel_cpp": 0.03944570259940181,
+    "abs_rel_py": 0.03953216645940877
+   },
+   {
+    "name": "test/00037.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.13325893878936768,
+    "abs_rel_cpp": 0.03445413103928386,
+    "abs_rel_py": 0.034531159613922974
+   },
+   {
+    "name": "test/00043.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 0.05487978458404541,
+    "abs_rel_cpp": 0.04008820939659165,
+    "abs_rel_py": 0.04012216029912561
+   }
+  ]
+ },
+ "ov:r518:int8": {
+  "summary": {
+   "n": 5,
+   "preprocess_max_gray_levels": 1.0223397016525269,
+   "infer_same_input_max_abs": 0.0,
+   "end_to_end_max_abs": 1.3188929557800293,
+   "abs_rel_mean_diff": -4.850612404581761e-05
+  },
+  "rows": [
+   {
+    "name": "test/00001.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 1.212296485900879,
+    "abs_rel_cpp": 0.02624971013673743,
+    "abs_rel_py": 0.026673740830915692
+   },
+   {
+    "name": "test/00017.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 1.2743160724639893,
+    "abs_rel_cpp": 0.058495737083148744,
+    "abs_rel_py": 0.05904417991749705
+   },
+   {
+    "name": "test/00031.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 1.3188929557800293,
+    "abs_rel_cpp": 0.045274386395115454,
+    "abs_rel_py": 0.04502290851404196
+   },
+   {
+    "name": "test/00037.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 1.0746891498565674,
+    "abs_rel_cpp": 0.03673845791472179,
+    "abs_rel_py": 0.03611126401244846
+   },
+   {
+    "name": "test/00043.h5",
+    "preprocess_max_gray_levels": 1.0223397016525269,
+    "infer_same_input_max_abs": 0.0,
+    "end_to_end_max_abs": 1.3043570518493652,
+    "abs_rel_cpp": 0.04151054099891597,
+    "abs_rel_py": 0.0416592698739653
+   }
+  ]
+ }
+}

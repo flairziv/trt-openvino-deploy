@@ -1,0 +1,12 @@
+h5py==3.16.0
+huggingface_hub==2.4.0
+numpy==2.4.4
+nvidia-modelopt==0.44.0
+onnx==1.21.0
+onnx_graphsurgeon==0.6.1
+onnxruntime-gpu==1.24.4
+opencv-python==4.13.0.92
+scipy==1.17.1
+tensorrt_cu12==10.16.1.11
+torch==2.12.0+cu126
+transformers==5.22.1

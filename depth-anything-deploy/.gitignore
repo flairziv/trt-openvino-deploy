@@ -1,0 +1,21 @@
+# 数据与模型产物(可由脚本重新生成,体积大;.engine 还绑定 GPU 型号 + TRT 版本)
+data/
+artifacts/
+logs/
+
+# C++ 构建目录
+cpp/build/
+cpp/build-ov/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store

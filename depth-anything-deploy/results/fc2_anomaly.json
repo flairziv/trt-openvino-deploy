@@ -1,0 +1,18 @@
+{
+ "fc2_activation_and_weight": {
+  "ort_cuda_sqnr_db": 17.965972348400236,
+  "trt_sqnr_db": 3.5094062863801976
+ },
+ "fc2_activation_only": {
+  "ort_cuda_sqnr_db": 17.076143686839558,
+  "trt_sqnr_db": 3.949021199209539
+ },
+ "fc2_weight_only": {
+  "ort_cuda_sqnr_db": 17.094891631911874,
+  "trt_sqnr_db": 21.382213288167804
+ },
+ "fc1_and_fc2": {
+  "ort_cuda_sqnr_db": 16.99532289109724,
+  "trt_sqnr_db": 22.672965309684876
+ }
+}
