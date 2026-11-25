@@ -1,0 +1,107 @@
+{
+ "repo": "Qwen/Qwen2-VL-2B-Instruct",
+ "endpoint": "https://hf-mirror.com",
+ "local_dir": "/mnt/d/vlm-artifacts/hf/Qwen2-VL-2B-Instruct",
+ "total_bytes": 4429622901,
+ "seconds": 38.4,
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 1519,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "LICENSE",
+   "size": 11343,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "README.md",
+   "size": 17392,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "chat_template.json",
+   "size": 1050,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "config.json",
+   "size": 1196,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "generation_config.json",
+   "size": 272,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "merges.txt",
+   "size": 1671839,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "model-00001-of-00002.safetensors",
+   "size": 3988609112,
+   "sha256": "994ac2b03f97de8bc647d0fe5eba2e4b632b3e28dc03574c29bdfc36cf47e1b9",
+   "sha256_verified": true,
+   "seconds": 30.4
+  },
+  {
+   "path": "model-00002-of-00002.safetensors",
+   "size": 429441656,
+   "sha256": "92540d8353c8d226a589a3b179bdb33851c970ee2cc2ac7ba035f79425e7b833",
+   "sha256_verified": true,
+   "seconds": 2.9
+  },
+  {
+   "path": "model.safetensors.index.json",
+   "size": 56411,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "preprocessor_config.json",
+   "size": 347,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "tokenizer.json",
+   "size": 7029741,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "tokenizer_config.json",
+   "size": 4190,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  },
+  {
+   "path": "vocab.json",
+   "size": 2776833,
+   "sha256": null,
+   "sha256_verified": false,
+   "seconds": 0.0
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+# 大文件不在仓库里:模型 / 量化产物 / IR / 安装包在 $VLM_ARTIFACTS(默认 D:\vlm-artifacts)
+data/
+logs/
+
+# C++ 构建目录
+cpp/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store

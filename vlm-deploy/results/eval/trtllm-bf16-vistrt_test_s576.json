@@ -1,0 +1,24 @@
+{
+ "variant": "trtllm-bf16-vistrt",
+ "split": "test",
+ "budget": "s576",
+ "num": 5000,
+ "score": 69.27,
+ "ci95": 1.21,
+ "mean_image_tokens": 576.0,
+ "run": {
+  "seconds": 1038.7,
+  "answered": 5000,
+  "load_seconds": 203.2,
+  "checkpoint": "/mnt/d/vlm-artifacts/hf/Qwen2-VL-2B-Instruct",
+  "vision_engines": "/mnt/d/vlm-artifacts/vision_trt"
+ },
+ "time": "2026-11-14 23:58:57",
+ "paired": {
+  "vs": "trtllm-bf16",
+  "n": 5000,
+  "delta": 0.18,
+  "ci95": 0.29,
+  "same_answer": 0.9452
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "variant": "trtllm-bf16",
+ "budget": "s576",
+ "max_new_tokens": 48,
+ "load_seconds": 72.2,
+ "time": "2026-11-16 01:27:39",
+ "warmup_requests": 2,
+ "gpu_mem_mb": {
+  "before_load": 597,
+  "after_load": 6459
+ },
+ "ttft_source": "client wall clock",
+ "rows": [
+  {
+   "image": "dev:0",
+   "question": "what is the brand of phone?",
+   "image_tokens": 576,
+   "answer": "nokia",
+   "ttft_ms": 330.5,
+   "new_tokens": 3,
+   "wall_ms": 359.8,
+   "decode_tps": null,
+   "engine_ttft_ms": 290.2,
+   "references": [
+    "nokia",
+    "toshiba"
+   ],
+   "vqa_acc": 1.0
+  },
+  {
+   "image": "dev:1",
+   "question": "what type of plane is this?",
+   "image_tokens": 576,
+   "answer": "airbus",
+   "ttft_ms": 320.5,
+   "new_tokens": 3,
+   "wall_ms": 349.6,
+   "decode_tps": null,
+   "engine_ttft_ms": 289.0,
+   "references": [
+    "lape",
+    "cargo",
+    "ec-agg",
+    "airplane"
+   ],
+   "vqa_acc": 0.0
+  },
+  {
+   "image": "dev:3",
+   "question": "who is this copyrighted by?",
+   "image_tokens": 576,
+   "answer": "qantas",
+   "ttft_ms": 326.3,
+   "new_tokens": 3,
+   "wall_ms": 353.7,
+   "decode_tps": null,
+   "engine_ttft_ms": 279.7,
+   "references": [
+    "simon clancy",
+    "simon ciancy",
+    "the brand is bayard"
+   ],
+   "vqa_acc": 0.0
+  },
+  {
+   "image": "dev:5",
+   "question": "what year is shown in the photo?",
+   "image_tokens": 576,
+   "answer": "2011",
+   "ttft_ms": 336.8,
+   "new_tokens": 5,
+   "wall_ms": 391.6,
+   "decode_tps": null,
+   "engine_ttft_ms": 275.4,
+   "references": [
+    "2011"
+   ],
+   "vqa_acc": 1.0
+  }
+ ]
+}

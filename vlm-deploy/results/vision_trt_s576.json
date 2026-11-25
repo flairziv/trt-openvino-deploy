@@ -1,0 +1,58 @@
+{
+ "budget": "s576",
+ "grid": "g48x48",
+ "engine": "/mnt/d/vlm-artifacts/vision_trt/vision_g48x48.engine",
+ "patches": 2304,
+ "image_tokens": 576,
+ "export_seconds": 20.1,
+ "build": {
+  "build_seconds": 39.5,
+  "engine_mb": 1278.4,
+  "num_layers": 296,
+  "myelin_regions": 2,
+  "fused_attention_layers": 32,
+  "attention_layer_examples": [
+   "{\"name\": \"_gemm_mha_v2_myl5_3\", \"layertype\": \"kgen\", \"inputs\": [{\"name\": \"/visual/blocks.0/attn/cast_2_output_0.1_myl5\", \"dimensions\": [16, 2304, 80], \"format/d",
+   "{\"name\": \"_gemm_mha_v2_myl5_12\", \"layertype\": \"kgen\", \"inputs\": [{\"name\": \"/visual/blocks.1/attn/cast_2_output_0.1_myl5\", \"dimensions\": [16, 2304, 80], \"format/"
+  ]
+ },
+ "parity": {
+  "n": 16,
+  "bf16_vs_fp32": {
+   "cosine_min": 0.935679,
+   "cosine_mean": 0.978186,
+   "rel_err_max": 0.35853,
+   "rel_err_mean": 0.19723
+  },
+  "trt_vs_fp32": {
+   "cosine_min": 0.972789,
+   "cosine_mean": 0.991233,
+   "rel_err_max": 0.23426,
+   "rel_err_mean": 0.1247
+  },
+  "trt_vs_bf16": {
+   "cosine_min": 0.925511,
+   "cosine_mean": 0.975671,
+   "rel_err_max": 0.38744,
+   "rel_err_mean": 0.20958
+  }
+ },
+ "gpu_ms": {
+  "hf_bf16_sdpa": {
+   "n": 5,
+   "p50": 209.81,
+   "p90": 211.78,
+   "mean": 210.38,
+   "min": 209.32
+  },
+  "trt_fp16": {
+   "n": 5,
+   "p50": 102.08,
+   "p90": 102.34,
+   "mean": 101.93,
+   "min": 101.25
+  }
+ },
+ "speedup_p50": 2.06,
+ "time": "2026-11-14 22:53:05"
+}

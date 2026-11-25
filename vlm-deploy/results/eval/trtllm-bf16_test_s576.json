@@ -1,0 +1,14 @@
+{
+ "variant": "trtllm-bf16",
+ "split": "test",
+ "budget": "s576",
+ "num": 5000,
+ "score": 69.09,
+ "ci95": 1.22,
+ "mean_image_tokens": 576.0,
+ "run": {
+  "seconds": 0.0,
+  "answered": 0
+ },
+ "time": "2026-11-14 23:37:40"
+}

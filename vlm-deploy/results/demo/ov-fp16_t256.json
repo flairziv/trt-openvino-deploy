@@ -1,0 +1,78 @@
+{
+ "variant": "ov-fp16",
+ "budget": "t256",
+ "max_new_tokens": 48,
+ "load_seconds": 2.2,
+ "time": "2026-11-16 01:33:28",
+ "warmup_requests": 2,
+ "gpu_mem_mb": null,
+ "ttft_source": "openvino_genai perf_metrics",
+ "rows": [
+  {
+   "image": "dev:0",
+   "question": "what is the brand of phone?",
+   "image_tokens": 234,
+   "answer": "nokia",
+   "ttft_ms": 9519.3,
+   "vision_ms": 6251.9,
+   "new_tokens": 3,
+   "wall_ms": 9720.5,
+   "decode_tps": null,
+   "references": [
+    "nokia",
+    "toshiba"
+   ],
+   "vqa_acc": 1.0
+  },
+  {
+   "image": "dev:1",
+   "question": "what type of plane is this?",
+   "image_tokens": 228,
+   "answer": "Airbus A320",
+   "ttft_ms": 9221.3,
+   "vision_ms": 6030.3,
+   "new_tokens": 7,
+   "wall_ms": 9749.3,
+   "decode_tps": null,
+   "references": [
+    "lape",
+    "cargo",
+    "ec-agg",
+    "airplane"
+   ],
+   "vqa_acc": 0.0
+  },
+  {
+   "image": "dev:3",
+   "question": "who is this copyrighted by?",
+   "image_tokens": 252,
+   "answer": "Simon Clancy",
+   "ttft_ms": 10127.6,
+   "vision_ms": 6724.1,
+   "new_tokens": 4,
+   "wall_ms": 10438.1,
+   "decode_tps": null,
+   "references": [
+    "simon clancy",
+    "simon ciancy",
+    "the brand is bayard"
+   ],
+   "vqa_acc": 1.0
+  },
+  {
+   "image": "dev:5",
+   "question": "what year is shown in the photo?",
+   "image_tokens": 234,
+   "answer": "2011",
+   "ttft_ms": 9495.3,
+   "vision_ms": 6212.0,
+   "new_tokens": 5,
+   "wall_ms": 9868.7,
+   "decode_tps": null,
+   "references": [
+    "2011"
+   ],
+   "vqa_acc": 1.0
+  }
+ ]
+}

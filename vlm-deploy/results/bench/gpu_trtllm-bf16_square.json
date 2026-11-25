@@ -1,0 +1,200 @@
+{
+ "variant": "trtllm-bf16",
+ "checkpoint": "/mnt/d/vlm-artifacts/hf/Qwen2-VL-2B-Instruct",
+ "rounds": 5,
+ "images": 12,
+ "decode_tokens": 64,
+ "load_seconds": 158.1,
+ "gpu_mem_mb": {
+  "before_load": 436,
+  "after_load": 6095,
+  "end": 6128
+ },
+ "time": "2026-11-14 23:29:35",
+ "budgets": {
+  "s256": {
+   "input_len_median": 294.5,
+   "ttft_vqa_ms": {
+    "n": 60,
+    "p50": 117.68,
+    "p90": 121.68,
+    "mean": 118.15,
+    "min": 112.86
+   },
+   "ttft_text_ms": {
+    "n": 60,
+    "p50": 40.47,
+    "p90": 41.07,
+    "mean": 40.51,
+    "min": 39.15
+   },
+   "vision_ms": {
+    "n": 60,
+    "p50": 77.0,
+    "p90": 81.25,
+    "mean": 77.64,
+    "min": 72.05
+   },
+   "vision_share": 0.654,
+   "client_overhead_vqa_ms": {
+    "n": 60,
+    "p50": 19.39,
+    "p90": 45.09,
+    "mean": 25.0,
+    "min": 14.31
+   },
+   "client_overhead_text_ms": {
+    "n": 60,
+    "p50": 1.88,
+    "p90": 2.11,
+    "mean": 2.03,
+    "min": 1.58
+   },
+   "decode_tps_vqa": {
+    "n": 60,
+    "p50": 73.11,
+    "p90": 73.88,
+    "mean": 72.92,
+    "min": 67.38
+   },
+   "decode_tps_text": {
+    "n": 60,
+    "p50": 73.83,
+    "p90": 74.6,
+    "mean": 73.71,
+    "min": 68.26
+   },
+   "ttft_vqa_round_spread": 0.035,
+   "load_seconds": 144.2,
+   "gpu_mem_mb": {
+    "before_load": 537,
+    "after_load": 6193,
+    "end": 6188
+   },
+   "time": "2026-11-14 23:02:51"
+  },
+  "s576": {
+   "input_len_median": 614.5,
+   "ttft_vqa_ms": {
+    "n": 60,
+    "p50": 289.76,
+    "p90": 298.21,
+    "mean": 290.06,
+    "min": 264.82
+   },
+   "ttft_text_ms": {
+    "n": 60,
+    "p50": 72.74,
+    "p90": 73.76,
+    "mean": 72.54,
+    "min": 66.79
+   },
+   "vision_ms": {
+    "n": 60,
+    "p50": 217.3,
+    "p90": 224.72,
+    "mean": 217.52,
+    "min": 192.36
+   },
+   "vision_share": 0.75,
+   "client_overhead_vqa_ms": {
+    "n": 60,
+    "p50": 28.51,
+    "p90": 33.05,
+    "mean": 28.91,
+    "min": 22.31
+   },
+   "client_overhead_text_ms": {
+    "n": 60,
+    "p50": 1.91,
+    "p90": 2.1,
+    "mean": 1.94,
+    "min": 1.66
+   },
+   "decode_tps_vqa": {
+    "n": 60,
+    "p50": 68.78,
+    "p90": 69.85,
+    "mean": 69.02,
+    "min": 67.68
+   },
+   "decode_tps_text": {
+    "n": 60,
+    "p50": 69.25,
+    "p90": 70.62,
+    "mean": 69.54,
+    "min": 68.13
+   },
+   "ttft_vqa_round_spread": 0.037,
+   "load_seconds": 143.8,
+   "gpu_mem_mb": {
+    "before_load": 447,
+    "after_load": 6144,
+    "end": 6144
+   },
+   "time": "2026-11-14 23:15:58"
+  },
+  "s1024": {
+   "input_len_median": 1062.5,
+   "ttft_vqa_ms": {
+    "n": 60,
+    "p50": 579.36,
+    "p90": 589.24,
+    "mean": 576.9,
+    "min": 530.31
+   },
+   "ttft_text_ms": {
+    "n": 60,
+    "p50": 123.3,
+    "p90": 124.85,
+    "mean": 123.15,
+    "min": 116.82
+   },
+   "vision_ms": {
+    "n": 60,
+    "p50": 455.99,
+    "p90": 469.74,
+    "mean": 453.74,
+    "min": 405.83
+   },
+   "vision_share": 0.787,
+   "client_overhead_vqa_ms": {
+    "n": 60,
+    "p50": 41.63,
+    "p90": 65.77,
+    "mean": 45.95,
+    "min": 30.97
+   },
+   "client_overhead_text_ms": {
+    "n": 60,
+    "p50": 2.03,
+    "p90": 2.3,
+    "mean": 2.04,
+    "min": 1.78
+   },
+   "decode_tps_vqa": {
+    "n": 60,
+    "p50": 68.5,
+    "p90": 70.33,
+    "mean": 68.6,
+    "min": 61.35
+   },
+   "decode_tps_text": {
+    "n": 60,
+    "p50": 69.61,
+    "p90": 71.14,
+    "mean": 69.52,
+    "min": 61.97
+   },
+   "ttft_vqa_round_spread": 0.034,
+   "load_seconds": 158.1,
+   "gpu_mem_mb": {
+    "before_load": 436,
+    "after_load": 6095,
+    "end": 6128
+   },
+   "time": "2026-11-14 23:29:35"
+  }
+ },
+ "one_budget_per_process": true
+}

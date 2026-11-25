@@ -1,0 +1,19 @@
+{
+ "recipe": "int8",
+ "spec": {
+  "lm": "int8"
+ },
+ "dir": "/mnt/d/vlm-artifacts/openvino/int8",
+ "seconds": {
+  "openvino_language_model": 35.3
+ },
+ "total_seconds": 35.4,
+ "peak_rss_gib": 4.66,
+ "bytes": {
+  "openvino_language_model": 1546250813,
+  "openvino_vision_embeddings_merger_model": 1327532198,
+  "openvino_text_embeddings_model": 466747396,
+  "openvino_vision_embeddings_model": 3010616
+ },
+ "time": "2026-11-15 03:02:10"
+}

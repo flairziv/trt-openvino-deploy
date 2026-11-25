@@ -1,0 +1,24 @@
+{
+ "variant": "ov-int8",
+ "split": "test",
+ "budget": "t256",
+ "num": 200,
+ "score": 64.3,
+ "ci95": 6.4,
+ "mean_image_tokens": 240.2,
+ "run": {
+  "seconds": 1578.5,
+  "answered": 200,
+  "load_seconds": 2.2,
+  "ir": "/mnt/d/vlm-artifacts/openvino/int8",
+  "threads": 4
+ },
+ "time": "2026-11-15 13:22:19",
+ "paired": {
+  "vs": "ov-fp16",
+  "n": 200,
+  "delta": 0.55,
+  "ci95": 0.98,
+  "same_answer": 0.955
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "variant": "ov-int4",
+ "split": "test",
+ "budget": "t256",
+ "num": 200,
+ "score": 62.15,
+ "ci95": 6.48,
+ "mean_image_tokens": 240.2,
+ "run": {
+  "seconds": 1538.3,
+  "answered": 200,
+  "load_seconds": 2.6,
+  "ir": "/mnt/d/vlm-artifacts/openvino/int4",
+  "threads": 4
+ },
+ "time": "2026-11-15 13:48:05",
+ "paired": {
+  "vs": "ov-fp16",
+  "n": 200,
+  "delta": -1.6,
+  "ci95": 3.64,
+  "same_answer": 0.66
+ }
+}

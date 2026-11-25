@@ -1,0 +1,17 @@
+{
+ "variant": "trtllm-bf16",
+ "split": "test",
+ "budget": "t256",
+ "num": 200,
+ "score": 64.25,
+ "ci95": 6.41,
+ "mean_image_tokens": 240.2,
+ "run": {
+  "seconds": 38.1,
+  "answered": 200,
+  "load_seconds": 98.9,
+  "checkpoint": "/mnt/d/vlm-artifacts/hf/Qwen2-VL-2B-Instruct",
+  "vision_engines": null
+ },
+ "time": "2026-11-15 12:23:12"
+}

@@ -1,0 +1,296 @@
+{
+ "variant": "ov-int4-vis8w",
+ "budget": "t256",
+ "threads": 4,
+ "time": "2026-11-21 03:32:34",
+ "parity": {
+  "n": 16,
+  "same_answer": 16,
+  "same_input_tokens": 16,
+  "mean_vqa_acc_python": 0.5625,
+  "mean_vqa_acc_cpp": 0.5625
+ },
+ "bench": {
+  "order": [
+   "python",
+   "cpp",
+   "cpp",
+   "python"
+  ],
+  "images": 6,
+  "decode_tokens": 32,
+  "python": {
+   "ttft_ms": {
+    "n": 12,
+    "p50": 4050.11,
+    "p90": 4220.24,
+    "mean": 4093.16,
+    "min": 3841.66
+   },
+   "vision_ms": {
+    "n": 12,
+    "p50": 2670.23,
+    "p90": 2791.36,
+    "mean": 2663.98,
+    "min": 2486.69
+   },
+   "prefill_ms": {
+    "n": 12,
+    "p50": 1423.13,
+    "p90": 1508.58,
+    "mean": 1429.17,
+    "min": 1354.97
+   },
+   "decode_tps": {
+    "n": 12,
+    "p50": 35.14,
+    "p90": 36.1,
+    "mean": 34.98,
+    "min": 31.61
+   },
+   "wall_ms": {
+    "n": 12,
+    "p50": 4970.44,
+    "p90": 5096.18,
+    "mean": 4980.92,
+    "min": 4707.4
+   },
+   "load_seconds": 2.7,
+   "ttft_pass_drift": 0.037
+  },
+  "cpp": {
+   "ttft_ms": {
+    "n": 12,
+    "p50": 4080.73,
+    "p90": 4141.92,
+    "mean": 4051.09,
+    "min": 3822.18
+   },
+   "vision_ms": {
+    "n": 12,
+    "p50": 2674.75,
+    "p90": 2742.36,
+    "mean": 2640.46,
+    "min": 2462.73
+   },
+   "prefill_ms": {
+    "n": 12,
+    "p50": 1399.61,
+    "p90": 1489.44,
+    "mean": 1410.63,
+    "min": 1359.44
+   },
+   "decode_tps": {
+    "n": 12,
+    "p50": 36.4,
+    "p90": 37.13,
+    "mean": 35.7,
+    "min": 32.66
+   },
+   "wall_ms": {
+    "n": 12,
+    "p50": 4950.59,
+    "p90": 5082.23,
+    "mean": 4921.6,
+    "min": 4656.44
+   },
+   "load_seconds": 2.2,
+   "ttft_pass_drift": 0.003
+  },
+  "ttft_ratio_cpp_over_python": 1.008
+ },
+ "rows": [
+  {
+   "qid": "0",
+   "question": "what is the brand of phone?",
+   "image_tokens": 234,
+   "answer_python": "nokia",
+   "answer_cpp": "nokia",
+   "same_answer": true,
+   "input_tokens_python": 272,
+   "input_tokens_cpp": 272,
+   "vqa_acc_python": 1.0,
+   "vqa_acc_cpp": 1.0
+  },
+  {
+   "qid": "1",
+   "question": "what type of plane is this?",
+   "image_tokens": 228,
+   "answer_python": "Propeller",
+   "answer_cpp": "Propeller",
+   "same_answer": true,
+   "input_tokens_python": 266,
+   "input_tokens_cpp": 266,
+   "vqa_acc_python": 0.0,
+   "vqa_acc_cpp": 0.0
+  },
+  {
+   "qid": "2",
+   "question": "what are the letters on the tail section of the plane?",
+   "image_tokens": 228,
+   "answer_python": "EC",
+   "answer_cpp": "EC",
+   "same_answer": true,
+   "input_tokens_python": 271,
+   "input_tokens_cpp": 271,
+   "vqa_acc_python": 1.0,
+   "vqa_acc_cpp": 1.0
+  },
+  {
+   "qid": "3",
+   "question": "who is this copyrighted by?",
+   "image_tokens": 252,
+   "answer_python": "Simon Clancy",
+   "answer_cpp": "Simon Clancy",
+   "same_answer": true,
+   "input_tokens_python": 289,
+   "input_tokens_cpp": 289,
+   "vqa_acc_python": 1.0,
+   "vqa_acc_cpp": 1.0
+  },
+  {
+   "qid": "4",
+   "question": "what brand is on the plane?",
+   "image_tokens": 252,
+   "answer_python": "Virgin",
+   "answer_cpp": "Virgin",
+   "same_answer": true,
+   "input_tokens_python": 290,
+   "input_tokens_cpp": 290,
+   "vqa_acc_python": 1.0,
+   "vqa_acc_cpp": 1.0
+  },
+  {
+   "qid": "5",
+   "question": "what year is shown in the photo?",
+   "image_tokens": 234,
+   "answer_python": "2011",
+   "answer_cpp": "2011",
+   "same_answer": true,
+   "input_tokens_python": 273,
+   "input_tokens_cpp": 273,
+   "vqa_acc_python": 1.0,
+   "vqa_acc_cpp": 1.0
+  },
+  {
+   "qid": "6",
+   "question": "what type of meeting is it?",
+   "image_tokens": 234,
+   "answer_python": "conference",
+   "answer_cpp": "conference",
+   "same_answer": true,
+   "input_tokens_python": 272,
+   "input_tokens_cpp": 272,
+   "vqa_acc_python": 0.0,
+   "vqa_acc_cpp": 0.0
+  },
+  {
+   "qid": "7",
+   "question": "what is the name of this plane?",
+   "image_tokens": 247,
+   "answer_python": "Aeromax",
+   "answer_cpp": "Aeromax",
+   "same_answer": true,
+   "input_tokens_python": 286,
+   "input_tokens_cpp": 286,
+   "vqa_acc_python": 0.0,
+   "vqa_acc_cpp": 0.0
+  },
+  {
+   "qid": "8",
+   "question": "what is the plane's call sign?",
+   "image_tokens": 247,
+   "answer_python": "G-ATCD",
+   "answer_cpp": "G-ATCD",
+   "same_answer": true,
+   "input_tokens_python": 286,
+   "input_tokens_cpp": 286,
+   "vqa_acc_python": 0.0,
+   "vqa_acc_cpp": 0.0
+  },
+  {
+   "qid": "9",
+   "question": "what letter is on the plane's tail?",
+   "image_tokens": 247,
+   "answer_python": "F",
+   "answer_cpp": "F",
+   "same_answer": true,
+   "input_tokens_python": 287,
+   "input_tokens_cpp": 287,
+   "vqa_acc_python": 1.0,
+   "vqa_acc_cpp": 1.0
+  },
+  {
+   "qid": "10",
+   "question": "what airline is this?",
+   "image_tokens": 247,
+   "answer_python": "finalair",
+   "answer_cpp": "finalair",
+   "same_answer": true,
+   "input_tokens_python": 283,
+   "input_tokens_cpp": 283,
+   "vqa_acc_python": 0.0,
+   "vqa_acc_cpp": 0.0
+  },
+  {
+   "qid": "11",
+   "question": "what airline is this plane for?",
+   "image_tokens": 240,
+   "answer_python": "Air france",
+   "answer_cpp": "Air france",
+   "same_answer": true,
+   "input_tokens_python": 278,
+   "input_tokens_cpp": 278,
+   "vqa_acc_python": 1.0,
+   "vqa_acc_cpp": 1.0
+  },
+  {
+   "qid": "12",
+   "question": "what does it say on the plane?",
+   "image_tokens": 256,
+   "answer_python": "Croatia",
+   "answer_cpp": "Croatia",
+   "same_answer": true,
+   "input_tokens_python": 295,
+   "input_tokens_cpp": 295,
+   "vqa_acc_python": 1.0,
+   "vqa_acc_cpp": 1.0
+  },
+  {
+   "qid": "18",
+   "question": "what letters are visible on the tail of the helicopter?",
+   "image_tokens": 252,
+   "answer_python": "W",
+   "answer_cpp": "W",
+   "same_answer": true,
+   "input_tokens_python": 294,
+   "input_tokens_cpp": 294,
+   "vqa_acc_python": 0.0,
+   "vqa_acc_cpp": 0.0
+  },
+  {
+   "qid": "22",
+   "question": "what organization do these men work for?",
+   "image_tokens": 247,
+   "answer_python": "politi",
+   "answer_cpp": "politi",
+   "same_answer": true,
+   "input_tokens_python": 286,
+   "input_tokens_cpp": 286,
+   "vqa_acc_python": 1.0,
+   "vqa_acc_cpp": 1.0
+  },
+  {
+   "qid": "23",
+   "question": "what two numbers can be seen on the white post on the right?",
+   "image_tokens": 247,
+   "answer_python": "25,50",
+   "answer_cpp": "25,50",
+   "same_answer": true,
+   "input_tokens_python": 292,
+   "input_tokens_cpp": 292,
+   "vqa_acc_python": 0.0,
+   "vqa_acc_cpp": 0.0
+  }
+ ]
+}

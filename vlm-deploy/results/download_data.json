@@ -1,0 +1,60 @@
+{
+ "realworldqa": {
+  "repo": "xai-org/RealworldQA",
+  "license": "CC BY-ND 4.0",
+  "local_dir": "/mnt/e/code/VscodeProjects/vlm-deploy/data/raw/realworldqa",
+  "seconds": 53.1,
+  "files": [
+   {
+    "path": "data/test-00000-of-00002.parquet",
+    "size": 337443936,
+    "sha256": "2cf29e308a34e0255f23520796fc04445a01b8baab18686f1a4b3c3943f695b2",
+    "sha256_verified": true,
+    "seconds": 28.6
+   },
+   {
+    "path": "data/test-00001-of-00002.parquet",
+    "size": 340887239,
+    "sha256": "dac5b9f7cfb947a4865ea3424abfbdb3449d09e0a0b911a787cdc930cefefdc0",
+    "sha256_verified": true,
+    "seconds": 24.5
+   }
+  ]
+ },
+ "textvqa": {
+  "repo": "lmms-lab/textvqa",
+  "license": "CC BY 4.0 (TextVQA); images from OpenImages (CC BY 2.0)",
+  "local_dir": "/mnt/e/code/VscodeProjects/vlm-deploy/data/raw/textvqa",
+  "seconds": 694.2,
+  "files": [
+   {
+    "path": "data/train-00000-of-00020.parquet",
+    "size": 302889163,
+    "sha256": "1e0af509ea969d78ad8f243e0205800d1a82b5094e1c8063848ada49b6679d89",
+    "sha256_verified": true,
+    "seconds": 20.7
+   },
+   {
+    "path": "data/validation-00000-of-00003.parquet",
+    "size": 310398494,
+    "sha256": "491649b5b8add2c5bde13a1e36707002fcd11898699255d65e2e568ac4fbddff",
+    "sha256_verified": true,
+    "seconds": 27.4
+   },
+   {
+    "path": "data/validation-00001-of-00003.parquet",
+    "size": 311190265,
+    "sha256": "909ad12a378217431548a7f4b66fda163a6def9d21e70844c96449e64206c2dd",
+    "sha256_verified": true,
+    "seconds": 23.1
+   },
+   {
+    "path": "data/validation-00002-of-00003.parquet",
+    "size": 298732781,
+    "sha256": "a770d03ec95fef58def04cda949d97669b7666caaf174af927856d75684e6fe6",
+    "sha256_verified": true,
+    "seconds": 623.0
+   }
+  ]
+ }
+}
