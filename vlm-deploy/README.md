@@ -512,4 +512,4 @@ make check        # 以上三项一起跑;提交前用(仓库没有持续集成)
 
 - 模型:Qwen2-VL-2B-Instruct 为 Apache-2.0。权重不随仓库分发。
 - 数据:TextVQA(CC BY 4.0)、RealWorldQA(CC BY-ND 4.0),仅用于评测,不随仓库分发。
-- 本仓库代码:许可待定。
+- 本仓库代码:MIT,见仓库根目录的 [LICENSE](../LICENSE)。

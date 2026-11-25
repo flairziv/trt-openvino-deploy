@@ -413,4 +413,4 @@ HF 镜像单连接限速约 90 KB/s 且会中途断流。`tools/parallel_fetch.p
 
 - 模型权重:Depth Anything V2-**Small** 为 Apache-2.0。Base / Large 为 CC-BY-NC-4.0,不可商用,本项目不使用。
 - 数据:NYU Depth V2,仅用于评测,不随仓库分发。
-- 本仓库代码:许可待定。
+- 本仓库代码:MIT,见仓库根目录的 [LICENSE](../LICENSE)。

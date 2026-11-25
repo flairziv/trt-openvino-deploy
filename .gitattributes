@@ -1,0 +1,2 @@
+# 统一 LF:脚本在 WSL 里执行,CRLF 会让 bash 报 "$'\r': command not found"
+* text=auto eol=lf

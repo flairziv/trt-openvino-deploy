@@ -16,7 +16,7 @@ Makefile 中 `DL` / `OV` 即 `conda run --no-capture-output -n dl python` / `-n 
 shell 在 Windows 侧(Git Bash)时,命令要送进 WSL 再跑。Windows 侧没有 make;那里的 conda 没有 `dl`,却有一个同名但无关的旧 `ov` 环境(openvino 2023.3,没装 h5py),直接 `conda run -n ov` 会落进它:看到"缺 h5py"就是跑错了环境,不要去装包。WSL 的非交互 shell 里 conda 不在 PATH,要先 source:
 
 ```bash
-wsl.exe -e bash -lc 'source ~/miniconda3/etc/profile.d/conda.sh && cd /mnt/e/code/VscodeProjects/depth-anything-deploy && make test'
+wsl.exe -e bash -lc 'source ~/miniconda3/etc/profile.d/conda.sh && cd /mnt/e/code/VscodeProjects/vit-vlm-deploy/depth-anything-deploy && make test'
 ```
 
 常用命令:
